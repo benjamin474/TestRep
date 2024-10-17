@@ -1,12 +1,5 @@
 print("This is our exercise3.")
-id_input = input("Enter your id: ")
-print(f"Hello, {id_input}!")
-user_age = input("Enter your name")
-if user_age >= 18:
-    print("You're an adult")
-elif user_age >= 0:
-    print("You're a kid")
-    elif name >= 100:
-    print("You're a anchestor")
-else:
-    print("You're not a human, who are you?")
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print(f"The sum of {num1} and {num2} is {num1 + num2}.")
+
