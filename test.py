@@ -1,12 +1,8 @@
 print("This is our exercise3.")
 id_input = input("Enter your id: ")
 print(f"Hello, {id_input}!")
-user_age = input("Enter your name")
-if user_age >= 18:
-    print("You're an adult")
-elif user_age >= 0:
-    print("You're a kid")
-    elif name >= 100:
-    print("You're a anchestor")
+user_age = input("Enter your age: ")
+if user_age == 114514:
+    print("怎麼會有那麼惡臭的人(惱")
 else:
-    print("You're not a human, who are you?")
+    print("You're normal")
