@@ -6,5 +6,7 @@ if name >= 18:
     print("You're an adult")
 elif name >= 0:
     print("You're a kid")
+    elif name >= 100:
+    print("You're a anchestor")
 else:
     print("You're not a human, who are you?")
